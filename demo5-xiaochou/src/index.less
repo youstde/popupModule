@@ -1,0 +1,226 @@
+@base : 2.34376;
+.coupon-modal-showPrize {
+  display: none;
+  position:fixed;
+  z-index:10000;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,.85);
+  overflow-x:hidden;
+  overflow-y:auto
+}
+.coupon-modal-showPrize .close {
+  position:absolute;
+  right:.3rem * @base;
+  top:.5rem * @base;
+  width:.25rem * @base;
+  height:.25rem * @base;
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Xiaochou/close.png);
+  background-size:100% 100%;
+  z-index:100
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog {
+  position:absolute;
+  width:2.7rem * @base;
+  left:50%;
+  -webkit-transform:translateX(-50%);
+  transform:translateX(-50%)
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-header {
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Xiaochou/header.png);
+  background-size:80%;
+  background-repeat:no-repeat;
+  background-position:center bottom;
+  width:2rem * @base;
+  height:1.84rem * @base;
+  position:relative;
+  top:.06rem * @base;
+  z-index:10;
+  margin:(.1rem * @base) auto 0
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body {
+  background:#fff;
+  border-radius:.04rem;
+  width:100%;
+  position:relative;
+  z-index:5
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body h3 {
+  font-size:.15rem * @base;
+  font-weight:300;
+  text-align:center;
+  line-height:2.1;
+  margin: 0;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body .coupon-image {
+  background-color:#fff;
+  padding-top:(.05rem * @base);
+  position:relative;
+  height: 3.1rem;
+  margin-top: -0.1rem;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body .coupon-image:before {
+  top:.015rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body .coupon-image:after {
+  bottom:.015rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body .coupon-image:after,.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body .coupon-image:before {
+  position:absolute;
+  display:block;
+  width:100%;
+  height:.06rem * @base;
+  content:'';
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Xiaochou/dot.png);
+  background-repeat:repeat-x;
+  background-size:(.11rem * @base) (.06rem * @base);
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body .coupon-image img {
+  width:100%
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body .coupon-code {
+  font-size:.13rem * @base;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+  -ms-flex-pack:center;
+  justify-content:center;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  line-height:2.3;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body .coupon-code .code {
+  margin:0 .1rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body .coupon-code span {
+  margin-right:.05rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .spring {
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Xiaochou/spring.png);
+  background-size:100%;
+  background-repeat:no-repeat;
+  width:.575rem * @base;
+  height:.61rem * @base;
+  margin:0 auto;
+  position:relative;
+  top:-.2rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-footer {
+  position:relative;
+  top:-.4rem * @base;
+  text-align:center;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-footer .coupon-use {
+  width:2rem * @base;
+  background:red;
+  color:#fff;
+  line-height:2.1;
+  font-size:.2rem * @base;
+  border-radius:.2rem * @base;
+  display:block;
+  margin:0 auto;
+  box-shadow:0 5px 3px 0 #790000;
+  border: 0 none;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-footer .logandgo {
+  color:rgba(255,255,255,.7);
+  display:inline-block;
+  font-size:.14rem * @base;
+  border-bottom:1px solid rgba(255,255,255,.7);
+  margin:(.2rem * @base) auto;
+  padding-bottom:.02rem * @base;
+}
+.coupon-modal-showPrize .decorate1 {
+  position:absolute;
+  width:.475rem * @base;
+  height:2.08rem * @base;
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Xiaochou/decorate1.png);
+  background-size:100% 100%;
+  z-index:10005;
+  left:-.3rem * @base;
+  top:2.1rem * @base;
+}
+.coupon-modal-showPrize .decorate2 {
+  position:absolute;
+  width:.795rem * @base;
+  height:1.285rem * @base;
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Xiaochou/decorate2.png);
+  background-size:100% 100%;
+  z-index:10005;
+  right:-.2rem * @base;
+  top:2.8rem * @base;
+}
+.modal-animation {
+  -webkit-animation-name:showCoupon;
+  animation-name:showCoupon;
+  -webkit-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-timing-function:ease-in-out;
+  animation-timing-function:ease-in-out;
+}
+@-webkit-keyframes showCoupon {
+  30%,50%,70%,80%,from,to {
+    -webkit-transform-origin:50% 90%;
+    transform-origin:50% 90%;
+  }
+  from {
+    -webkit-transform:scale(.8,.8);
+    transform:scale(.8,.8);
+  }
+  30% {
+    -webkit-transform:rotate(-10deg) scale(.95,.95);
+    transform:rotate(-10deg) scale(.95,.95);
+  }
+  50% {
+    -webkit-transform:rotate(10deg);
+    transform:rotate(10deg);
+  }
+  70% {
+    -webkit-transform:rotate(-4deg);
+    transform:rotate(-4deg);
+  }
+  80% {
+    -webkit-transform:rotate(4deg);
+    transform:rotate(4deg);
+  }
+  to {
+    -webkit-transform:rotate(0);
+    transform:rotate(0);
+  }
+}@keyframes showCoupon {
+   30%,50%,70%,80%,from,to {
+     -webkit-transform-origin:50% 90%;
+     transform-origin:50% 90%;
+   }
+   from {
+     -webkit-transform:scale(.8,.8);
+     transform:scale(.8,.8);
+   }
+   30% {
+     -webkit-transform:rotate(-10deg) scale(.95,.95);
+     transform:rotate(-10deg) scale(.95,.95);
+   }
+   50% {
+     -webkit-transform:rotate(10deg);
+     transform:rotate(10deg);
+   }
+   70% {
+     -webkit-transform:rotate(-4deg);
+     transform:rotate(-4deg);
+   }
+   80% {
+     -webkit-transform:rotate(4deg);
+     transform:rotate(4deg);
+   }
+   to {
+     -webkit-transform:rotate(0);
+     transform:rotate(0);
+   }
+ }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/demo-dialog/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo-hengfu/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo-qiqiu/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo-taowa/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo-xiaochou/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo-yuanbao/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo1-dialog/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo2-hengfu/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo3-qiqiu/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo4-taowa/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo5-xiaochou/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo6-yuanbao/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo7-qipao/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

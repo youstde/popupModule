@@ -1,0 +1,238 @@
+.coupon-modal-showPrize {
+  display: none;
+  position:fixed;
+  z-index:10000;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,.85);
+  overflow-x:hidden;
+  overflow-y:auto
+}
+.coupon-modal-showPrize .coupon-modal-close {
+  background-image: url('//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Taowa/colsed.png');
+  background-size:60% 60%;
+  background-position:center center;
+  background-repeat:no-repeat;
+  display:inline-block;
+  position:absolute;
+  width:.56rem;
+  height:.56rem;
+  top:1.4rem;
+  right:.6rem;
+  background-color:#fa8581;
+  border-radius:50%;
+  border:1px solid #ca274e;
+  text-align:center;
+  z-index:10070
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog {
+  width:100%;
+  position:relative;
+  -webkit-animation:showModal .4s linear;
+  animation:showModal .4s linear;
+  -webkit-transform-origin:center center;
+  transform-origin:center center
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body {
+  position:absolute;
+  top:3.6rem;
+  width:100%
+}
+.coupon-image{
+  max-height: 2.7rem;
+}
+.modal-title {
+  width: 2rem;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.coupon-modal-showPrize .light {
+  position:absolute;
+  width:5.5rem;
+  height:5.5rem;
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Taowa/light.png);
+  background-size:100% 100%;
+  left:-2.73rem;
+  top:-2.625rem;
+  -webkit-animation:lightAngle 3s linear infinite;
+  animation:lightAngle 3s linear infinite
+}
+.coupon-modal-showPrize .modal-header {
+  position:absolute;
+  z-index:10001;
+  width:2px;
+  height:2px;
+  border-radius:50%;
+  box-shadow: 0 0 2rem 2rem rgba(246, 67, 56, 0.7);
+  left: 50%;
+  top: 3.78rem;
+}
+.coupon-modal-showPrize .content-header {
+  position:absolute;
+  top:-1.59rem;
+  width:100%;
+  height:3.1rem;
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Taowa/theme.png);
+  background-size:100% 100%;
+  z-index:10020
+}
+.coupon-modal-showPrize .content-header .doll {
+  position:absolute;
+  display:inline-block;
+  width: 0.92rem;
+  height: 1.28rem;
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Taowa/doll.png);
+  top:0.6rem;
+  right:.85rem;
+  background-size:100% 100%;
+  -webkit-animation:dollShake 2s linear infinite;
+  animation:dollShake 2s linear infinite;
+  -webkit-transform-origin:center bottom;
+  transform-origin:center bottom
+}
+.coupon-modal-showPrize .content-header h3 {
+  display:inline-block;
+  position:absolute;
+  color:#ffe3b3;
+  font-weight:300;
+  font-size:14px;
+  letter-spacing: 0.05rem;
+  top:1.5rem;
+  margin: 0.28rem 0;
+  min-width:3.7rem;
+  text-align:center;
+  left:50%;
+  -webkit-transform:translate(-50%,0);
+  transform:translate(-50%,0);
+  background-color:#f05855;
+  padding:0 .17rem;
+  line-height:.59rem;
+  border-radius:1.145rem;
+  box-shadow:0 0 4px 1px rgba(0,0,0,.2) inset;
+  white-space:nowrap
+}
+.coupon-modal-showPrize .content-wrapper {
+  z-index:10010;
+  position:absolute;
+  top:0;
+  width: 6.79rem;
+  left: 0.356rem;
+  min-height:3rem;
+  background-image: url('//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Taowa/body.png');
+  background-size:100% 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1.05rem 0.5rem 0.75rem;
+}
+.coupon-modal-showPrize .coupon-wrapper {
+  background-color:#fff;
+  padding:.1rem .14rem;
+  border-radius:8px;
+  box-shadow:0 2px 2px 2px #cf2719;
+  margin-bottom:.4rem
+}
+.coupon-modal-showPrize .code,.coupon-modal-showPrize .password {
+  color:#fff;
+  padding-left:.05rem;
+  line-height:1.5
+}
+.coupon-modal-showPrize .code span,.coupon-modal-showPrize .password span {
+  margin-right:.05rem
+}
+.coupon-modal-showPrize .coupon-use {
+  background-image:url('//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Taowa/buttom.png');
+  background-size:100% 100%;
+  height:0.9rem;
+  line-height:0.9rem;
+  color:#ac5a0c;
+  text-align:center;
+  min-width:3.75rem;
+  border-radius:.54rem;
+  font-size:16px;
+  font-weight:700;
+  display:block;
+  margin:.1rem auto .05rem;
+  box-shadow:0 2px 2px 2px #a12437;
+  padding:0 .1rem;
+  border: 0 none;
+}
+.coupon-modal-showPrize .coupon-use.no-coupon {
+  margin-top:.2rem
+}
+.coupon-modal-showPrize .logandgo {
+  font-size:14px;
+  color:#fff;
+  line-height:2;
+  display:block;
+  text-align:center;
+  width:100%;
+  max-height: 2.7rem;
+}
+@-webkit-keyframes showModal {
+  from {
+    -webkit-transform:scale(0,0);
+    transform:scale(0,0)
+  }
+  to {
+    -webkit-transform:scale(1,1);
+    transform:scale(1,1)
+  }
+}@keyframes showModal {
+   from {
+     -webkit-transform:scale(0,0);
+     transform:scale(0,0)
+   }
+   to {
+     -webkit-transform:scale(1,1);
+     transform:scale(1,1)
+   }
+ }@-webkit-keyframes lightAngle {
+    from {
+      -webkit-transform:rotate(0);
+      transform:rotate(0)
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      transform:rotate(360deg)
+    }
+  }@keyframes lightAngle {
+     from {
+       -webkit-transform:rotate(0);
+       transform:rotate(0)
+     }
+     to {
+       -webkit-transform:rotate(360deg);
+       transform:rotate(360deg)
+     }
+   }@-webkit-keyframes dollShake {
+      0%,100%,50% {
+        -webkit-transform:rotate(10deg);
+        transform:rotate(10deg)
+      }
+      25% {
+        -webkit-transform:rotate(25deg);
+        transform:rotate(25deg)
+      }
+      75% {
+        -webkit-transform:rotate(-5deg);
+        transform:rotate(-5deg)
+      }
+    }@keyframes dollShake {
+       0%,100%,50% {
+         -webkit-transform:rotate(10deg);
+         transform:rotate(10deg)
+       }
+       25% {
+         -webkit-transform:rotate(25deg);
+         transform:rotate(25deg)
+       }
+       75% {
+         -webkit-transform:rotate(-5deg);
+         transform:rotate(-5deg)
+       }
+     }

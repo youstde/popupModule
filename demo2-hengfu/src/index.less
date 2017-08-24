@@ -1,0 +1,341 @@
+@base : 2.34376;
+.coupon-modal-showPrize {
+  display: none;
+  position:fixed;
+  z-index:10000;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background-color:rgba(0,0,0,.7);
+  overflow-x:hidden;
+  overflow-y:auto
+}
+.coupon-modal-showPrize .close {
+  position:absolute;
+  right:.3rem * @base;
+  top:.5rem * @base;
+  width:.21333333rem * @base;
+  height:.21333333rem * @base;
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Hengfu/close.png);
+  background-size:100% 100%;
+  z-index:101
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog {
+  position:absolute;
+  width:6.13rem;
+  padding:.16rem * @base;
+  z-index:100;
+  -webkit-transform-origin:center center;
+  transform-origin:center center;
+  -webkit-animation:rotatePrize .6s;
+  animation:rotatePrize .6s;
+  top:1.2rem * @base;
+  left:.13rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog:after,.coupon-modal-showPrize .coupon-modal-showPrize-dialog:before {
+  content:'';
+  display:block;
+  width:100%;
+  height:.27306667rem * @base;
+  background:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Hengfu/coupon-pole.png) no-repeat;
+  background-size:contain;
+  position:absolute;
+  left:0;
+  z-index:200
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog:before {
+  top:0
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog:after {
+  bottom:0
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body {
+  background:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Hengfu/coupon-bg.jpg) no-repeat;
+  background-size:100% 100%;
+  padding:0 .1rem * @base;
+  position:relative;
+  z-index:100;
+  -webkit-animation:changeHeight .5s;
+  animation:changeHeight .5s;
+  -webkit-animation-delay:.6s;
+  animation-delay:.6s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+  overflow:hidden;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body.withoutCode {
+  height:6.13rem;
+  -webkit-animation-name:changeHeight2;
+  animation-name:changeHeight2
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-body.withoutCode .coupon-use {
+  margin-top:.2rem * @base
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-title {
+  color:#fff;
+  text-align:center;
+  font-size:.13226667rem * @base;
+  padding-top: 0.303128rem;
+  margin: 0.32rem 0;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .modal-title span {
+  border:1px solid #fff;
+  padding:.05rem * @base
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-image {
+  margin-top:.14rem;
+  height: 2.57rem;
+  background:#ffb04a;
+  padding:.02986667rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-image img {
+  width:100%
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-code {
+  padding-top:.07rem * @base;
+  padding-left:.02rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-code .code {
+  color:#fff;
+  font-size:.128rem * @base;
+  line-height:.192rem * @base;
+  text-align:left;
+  padding-top:.03rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-code span {
+  border:1px solid #fff;
+  border-radius:.128rem * @base;
+  padding:.01rem .06rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-use {
+  width:2.44053333rem * @base;
+  height:.50346667rem * @base;
+  line-height:.17066667rem * @base;
+  color:#df1b29;
+  font-size:.2048rem * @base;
+  font-weight:700;
+  background:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Hengfu/coupon-btn.png) no-repeat;
+  background-size:100%;
+  display:block;
+  margin:0 auto;
+  position:relative;
+  border: 0 none;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-use .cover {
+  display:block;
+  width:.2944rem * @base;
+  height:.37546667rem * @base;
+  position:absolute;
+  left:0;
+  top:.07rem * @base;
+  background:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Hengfu/cover.png) no-repeat;
+  background-size:cover;
+  -webkit-animation:showCover .5s linear;
+  animation:showCover .5s linear;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-delay:1.5s;
+  animation-delay:1.5s
+}
+.coupon-modal-showPrize .light {
+  width:3.2rem * @base;
+  height:3.3152rem * @base;
+  background:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Hengfu/light.png) no-repeat;
+  background-size:100%;
+  position:absolute;
+  top:.3rem * @base;
+  left:0;
+  -webkit-animation:wobbleLight 20s linear infinite;
+  animation:wobbleLight 20s linear infinite;
+  -webkit-animation-delay:.8s;
+  animation-delay:.8s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both
+}
+.coupon-modal-showPrize .light2 {
+  width:3.2rem * @base;
+  height:100%;
+  background:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Hengfu/light2.png) no-repeat;
+  background-size:100% 100%;
+  display:block;
+  -webkit-animation:show .3s;
+  animation:show .3s;
+  -webkit-animation-delay:.8s;
+  animation-delay:.8s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both
+}
+.coupon-modal-showPrize .render {
+  width:2.5984rem * @base;
+  height:.92586667rem * @base;
+  position:absolute;
+  top:.35rem * @base;
+  left:.3rem * @base;
+  background:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Hengfu/render.png) no-repeat;
+  background-size:100%;
+  -webkit-animation:show .3s;
+  animation:show .3s;
+  -webkit-animation-delay:.8s;
+  animation-delay:.8s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both
+}
+.coupon-modal-showPrize .modal-header {
+  display:block;
+  width:1.90293333rem * @base;
+  height:.72533333rem * @base;
+  background:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Hengfu/coupon-head.png) no-repeat;
+  background-size:100%;
+  position:absolute;
+  left:.6rem * @base;
+  top:.8rem * @base;
+  z-index:200;
+  -webkit-animation:showHeader .5s;
+  animation:showHeader .5s;
+  -webkit-animation-delay:.8s;
+  animation-delay:.8s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both
+}
+@-webkit-keyframes changeHeight {
+  from {
+    height:0;
+  }
+  to {
+    height:3.11466667rem * @base;
+  }
+}@keyframes changeHeight {
+   from {
+     height:0;
+   }
+   to {
+     height:3.11466667rem * @base;
+   }
+ }@-webkit-keyframes changeHeight2 {
+    from {
+      height:0;
+    }
+    to {
+      height:2.8544rem * @base;
+    }
+  }@keyframes changeHeight2 {
+     from {
+       height:0
+     }
+     to {
+       height:2.8544rem * @base;
+     }
+   }@-webkit-keyframes show {
+      from {
+        opacity:0;
+      }
+      to {
+        opacity:1;
+      }
+    }@keyframes show {
+       from {
+         opacity:0;
+       }
+       to {
+         opacity:1;
+       }
+     }@-webkit-keyframes wobbleLight {
+        from {
+          opacity:0;
+          -webkit-transform:none;
+          transform:none
+        }
+        2% {
+          opacity:1
+        }
+        to {
+          -webkit-transform:rotate(360deg);
+          transform:rotate(360deg)
+        }
+      }@keyframes wobbleLight {
+         from {
+           opacity:0;
+           -webkit-transform:none;
+           transform:none
+         }
+         2% {
+           opacity:1
+         }
+         to {
+           -webkit-transform:rotate(360deg);
+           transform:rotate(360deg)
+         }
+       }@-webkit-keyframes rotatePrize {
+          from {
+            width:1.76128rem * @base;
+            -webkit-transform:rotate(-180deg);
+            transform:rotate(-180deg)
+          }
+          to {
+            width:2.93546667rem * @base;
+            -webkit-transform:rotate(0);
+            transform:rotate(0)
+          }
+        }@keyframes rotatePrize {
+           from {
+             width:1.76128rem * @base;
+             -webkit-transform:rotate(-180deg);
+             transform:rotate(-180deg)
+           }
+           to {
+             width:2.93546667rem * @base;
+             -webkit-transform:rotate(0);
+             transform:rotate(0)
+           }
+         }@-webkit-keyframes showHeader {
+            from {
+              opacity:0;
+              -webkit-transform:scale(.3);
+              transform:scale(.3)
+            }
+            0.1% {
+              opacity:1
+            }
+            to {
+              -webkit-transform:scale(1);
+              transform:scale(1)
+            }
+          }@keyframes showHeader {
+             from {
+               opacity:0;
+               -webkit-transform:scale(.3);
+               transform:scale(.3)
+             }
+             0.1% {
+               opacity:1
+             }
+             to {
+               -webkit-transform:scale(1);
+               transform:scale(1)
+             }
+           }@-webkit-keyframes showCover {
+              from,to {
+                opacity:0
+              }
+              1% {
+                opacity:1
+              }
+              99% {
+                -webkit-transform:translateX(2.1rem);
+                transform:translateX(2.1rem);
+                opacity:1
+              }
+            }@keyframes showCover {
+               from,to {
+                 opacity:0
+               }
+               1% {
+                 opacity:1
+               }
+               99% {
+                 -webkit-transform:translateX(2.1rem);
+                 transform:translateX(2.1rem);
+                 opacity:1
+               }
+             }

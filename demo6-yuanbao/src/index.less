@@ -1,0 +1,248 @@
+@base : 2.34376;
+.coupon-modal-showPrize {
+  display: none;
+  position:fixed;
+  z-index:10000;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,.85);
+  overflow:hidden
+}
+.coupon-modal-showPrize .close {
+  position:absolute;
+  right:.3rem * @base;
+  top:-.1rem * @base;
+  width:.25rem * @base;
+  height:.25rem * @base;
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Yuanbao/close.png);
+  background-size:100% 100%;
+  z-index:1120
+}
+.coupon-modal-showPrize .modal-head {
+  position:absolute;
+  width:100%;
+  height:3.07rem * @base;
+  background-size:100% 100%;
+  background-image: url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Yuanbao/header.png);
+  z-index:1010;
+  left:-.025rem * @base;
+}
+.coupon-modal-showPrize .modal-head:after {
+  content:'';
+  display:inline-block;
+  position:absolute;
+  width:.45rem * @base;
+  height:.315rem * @base;
+  background-size:100% 100%;
+  background-image: url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Yuanbao/yuanbao.png);
+  top:1.735rem * @base;
+  left:.48rem * @base;
+}
+.coupon-modal-showPrize .modal-body {
+  display:block;
+  position:absolute;
+  width:100%;
+  background-size:100% 100%;
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Yuanbao/body.png);
+  top:1.74rem * @base;
+  left:-.025rem * @base;
+  z-index:1040
+}
+.coupon-modal-showPrize .modal-body h3 {
+  display:block;
+  text-align:center;
+  position:relative;
+  color:#ffed60;
+  width: 3.5rem;
+  font-size:.13rem * @base;
+  line-height:2;
+  font-weight:300;
+  background-color:#e42410;
+  padding:0 .15rem * @base;
+  border-radius:4px;
+  letter-spacing:.015rem * @base;
+  margin: 0.2rem auto 0.0937504rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.coupon-modal-showPrize .modal-body h3.nocode {
+  background-color:transparent
+}
+.coupon-modal-showPrize .modal-body .body-head {
+  position:relative;
+  display:block;
+  width:1.34rem * @base;
+  height:.21rem * @base;
+  background-size:100% 100%;
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Yuanbao/tip.png);
+  margin:.57rem auto 0;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog {
+  -webkit-animation:showCoupon .5s;
+  animation:showCoupon .5s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+  width:100%;
+  margin:0 auto;
+  position:absolute;
+  top:.7rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .content-wrapper {
+  width:2.62rem * @base;
+  position:relative;
+  text-align:center;
+  padding:0 .1rem * @base;
+  display:block;
+  margin:0 auto;
+  -webkit-transform:translateX(.02rem * @base);
+  transform:translateX(.02rem * @base)
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-wrapper {
+  position:absolute;
+  width:2.285rem * @base;
+  height:1.265rem * @base;
+  left:.48rem * @base;
+  top:.735rem * @base;
+  overflow:hidden;
+  background-size:100% 100%;
+  background-image: url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Yuanbao/goodborder.png);
+  display:block;
+  padding:(.055rem * @base) 0;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-image {
+  width:2.165rem * @base;
+  height:1.03rem * @base;
+  display:block;
+  overflow:hidden;
+  border-radius:6px;
+  margin:0 auto;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-image img {
+  width:2.165rem * @base;
+  height:1.03rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-code {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-code .code {
+  display:inline-block;
+  color:#ffe4e1;
+  text-align:center;
+  font-size:.11rem * @base;
+  line-height:1.5 * @base;
+  margin:(.05rem * @base) 0 0;
+  -webkit-box-flex:1;
+  -ms-flex:1;
+  flex:1
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-code span {
+  margin-right:.03rem * @base;
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-use {
+  width:2.45rem * @base;
+  height:.64rem * @base;
+  line-height:0.9rem;
+  display:block;
+  border: 0 none;
+  margin:0 auto;
+  background: url('//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Yuanbao/btn.png')no-repeat;
+  background-size:100% 100%;
+  color:#e62e0c;
+  font-size:.22rem * @base;
+  position:relative;
+  text-shadow:1px 1px 1px #fff9cf
+}
+.coupon-modal-showPrize .coupon-modal-showPrize-dialog .coupon-use span {
+  position:relative;
+  display:block;
+  margin-top:-.05rem * @base;
+  font-family:FZZCHJW
+}
+.coupon-modal-showPrize .body-footer {
+  width:100%;
+  position:relative;
+  margin:.2rem 0 .15rem;
+}
+.l-shine,.modal-light {
+  position:absolute;
+  left:50%
+}
+.coupon-modal-showPrize .body-footer.nocode {
+  margin-top:.05rem * @base;
+}
+.coupon-modal-showPrize .body-footer a {
+  line-height:2;
+  color:#ffe4e1;
+  margin-top:-.1rem * @base;
+  margin-bottom:.05rem * @base;
+  display:block;
+  font-size:.09rem * @base;
+}
+.modal-light {
+  z-index:100;
+  display:inline-block;
+  width:.8rem * @base;
+  height:.4rem * @base;
+  border-radius:50%;
+  background-color:#ff8a2c;
+  top:1.2rem * @base;
+  -webkit-transform:translate(-50%,0);
+  transform:translate(-50%,0);
+  box-shadow:0 0 2.9rem 1.9rem #ff8a2c
+}
+.l-shine {
+  z-index:101;
+  width:3.85rem * @base;
+  height:3.85rem * @base;
+  top:-1.6rem * @base;
+  -webkit-transform:translate(-50%,0);
+  transform:translate(-50%,0);
+  background-size:100% 100%;
+  background-image:url(//static.adbaitai.com/game/Theme/outLayer/Pre/Img/Yuanbao/light.png);
+  -webkit-animation:wobbleLight 18s linear infinite;
+  animation:wobbleLight 18s linear infinite
+}
+@-webkit-keyframes showCoupon {
+  from {
+    -webkit-transform:translateY(-5rem);
+    transform:translateY(-5rem)
+  }
+  to {
+    -webkit-transform:translateY(0);
+    transform:translateY(0)
+  }
+}@keyframes showCoupon {
+   from {
+     -webkit-transform:translateY(-5rem);
+     transform:translateY(-5rem)
+   }
+   to {
+     -webkit-transform:translateY(0);
+     transform:translateY(0)
+   }
+ }@-webkit-keyframes wobbleLight {
+    from {
+      -webkit-transform:translate(-50%,0) rotate(0);
+      transform:translate(-50%,0) rotate(0)
+    }
+    to {
+      -webkit-transform:translate(-50%,0) rotate(360deg);
+      transform:translate(-50%,0) rotate(360deg)
+    }
+  }@keyframes wobbleLight {
+     from {
+       -webkit-transform:translate(-50%,0) rotate(0);
+       transform:translate(-50%,0) rotate(0)
+     }
+     to {
+       -webkit-transform:translate(-50%,0) rotate(360deg);
+       transform:translate(-50%,0) rotate(360deg)
+     }
+   }
