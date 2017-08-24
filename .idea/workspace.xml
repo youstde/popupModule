@@ -244,12 +244,12 @@
       <workItem from="1503379728568" duration="2395000" />
       <workItem from="1503400511087" duration="27000" />
       <workItem from="1503470290891" duration="3501000" />
-      <workItem from="1503540139969" duration="202000" />
+      <workItem from="1503540139969" duration="269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31489000" />
+    <option name="totallyTimeSpent" value="31556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="6" />
@@ -493,42 +493,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1-dialog/src/index.less">
+    <entry file="file://$PROJECT_DIR$/demo1-xiala/src/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="121" column="29" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1-dialog/src/index.js">
+    <entry file="file://$PROJECT_DIR$/demo1-xiala/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="60" column="30" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1-dialog/demo/pre.html">
+    <entry file="file://$PROJECT_DIR$/demo1-xiala/demo/pre.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1-dialog/build/index.mini.js">
+    <entry file="file://$PROJECT_DIR$/demo1-xiala/build/index.mini.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6809" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="6809" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1-dialog/build/popup_1.js">
+    <entry file="file://$PROJECT_DIR$/demo1-xiala/build/popup_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6809" selection-start-line="0" selection-start-column="6809" selection-end-line="0" selection-end-column="6809" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1-dialog/build/indexpre_1.js">
+    <entry file="file://$PROJECT_DIR$/demo1-xiala/build/indexpre_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6809" selection-start-line="0" selection-start-column="6809" selection-end-line="0" selection-end-column="6809" />
