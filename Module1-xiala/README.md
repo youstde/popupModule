@@ -1,4 +1,6 @@
-#### 弹窗模板
+#### 下拉弹窗
+
+![](http://ww1.sinaimg.cn/large/005QDhBjgy1fiumdof03ij30fm0nygxi.jpg)
 
 添加了关闭弹窗时的回调,回调中会返回一个`type`类型，分为两种：`1.jump, 2.close`,第一种是点击跳转按钮去到广告落地页之前的回调，第二种是点击关闭按钮的回调
 

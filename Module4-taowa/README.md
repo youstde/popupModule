@@ -1,5 +1,9 @@
 #### 弹窗模板
 
+![](http://ww1.sinaimg.cn/large/005QDhBjgy1fiumg01f2zj30fk0nagyi.jpg)
+
+
+
 添加了关闭弹窗时的回调
 
 1.向外暴露一个js文件,会暴露出一个构造函数

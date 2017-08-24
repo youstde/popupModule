@@ -1,4 +1,6 @@
-#### 弹窗模板
+#### 开屏弹窗
+
+![](http://ww1.sinaimg.cn/large/005QDhBjgy1fiumf2cw0zj30fi0noqmg.jpg)
 
 添加了关闭弹窗时的回调
 

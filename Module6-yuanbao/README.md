@@ -1,4 +1,6 @@
-#### 弹窗模板
+#### 元宝弹窗
+
+![](http://ww1.sinaimg.cn/large/005QDhBjgy1fiumgrgwl7j30fm0n0gxc.jpg)
 
 添加了关闭弹窗时的回调
 

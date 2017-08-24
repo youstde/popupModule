@@ -1,4 +1,6 @@
-#### 弹窗模板
+#### 小丑弹窗
+
+![](http://ww1.sinaimg.cn/large/005QDhBjgy1fiumgcsg1wj30fm0oi4an.jpg)
 
 添加了关闭弹窗时的回调
 

@@ -1,4 +1,6 @@
-#### 弹窗模板
+#### 气球弹窗
+
+![](http://ww1.sinaimg.cn/large/005QDhBjgy1fiumfd1hohj30fg0mkk2q.jpg)
 
 添加了关闭弹窗时的回调
 
