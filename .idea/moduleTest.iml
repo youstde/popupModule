@@ -10,6 +10,7 @@
       <excludeFolder url="file://$MODULE_DIR$/demo-xiaochou/node_modules" />
       <excludeFolder url="file://$MODULE_DIR$/demo-yuanbao/node_modules" />
       <excludeFolder url="file://$MODULE_DIR$/demo1-dialog/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/demo1-xiala/node_modules" />
       <excludeFolder url="file://$MODULE_DIR$/demo2-hengfu/node_modules" />
       <excludeFolder url="file://$MODULE_DIR$/demo3-qiqiu/node_modules" />
       <excludeFolder url="file://$MODULE_DIR$/demo4-taowa/node_modules" />
